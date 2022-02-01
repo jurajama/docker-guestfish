@@ -1,5 +1,4 @@
-FROM centos:7
-MAINTAINER "Preston Norvell" <curator@shmoo.com>
+FROM rockylinux:8.5
 
 RUN yum -y install libguestfs-tools && yum -y update && yum clean all
 
